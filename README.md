@@ -24,9 +24,7 @@
 Feladatmegosztás Feladat Felelős(ök) 
 Wireframe készítés Sebi, Kornél, Zsombor Szövegírás Gréti, Barni Weboldal fejlesztés Sebi, Kornél
 ## 2. Fájlstruktúra
-- `index.html` – főoldal, tartalom és szerkezet  
-
-- `style.css` – stíluslap, színek, tipográfia, elrendezés  
+- `index.html` – főoldal, kezdőlap - `elerhetoseg.html` – elérhetőségek, kapcsolati információk - `jegyvasarlas.html` – jegyvásárlási oldal - `jelen.html` – jelenlegi események vagy állapot bemutatása - `programok.html` – programlista, események - `tortenet.html` – Zsomvár története - `styles.css` – stíluslap, színek, tipográfia, elrendezés - `scripts.js` – JavaScript funkciók (ha van) - `assets/` – képek, ikonok, médiafájlok - `README.md` – projekt dokumentációja
 - `src/` – képek, ikonok, médiafájlok  
 
 ---
