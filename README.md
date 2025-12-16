@@ -1,39 +1,32 @@
-1. Projekt áttekintés
-Projekt neve: Zsomvár (Zsomv-r)
+# 🌐 Zsomvár Weboldal
 
-Cél: Egy weboldal létrehozása, amely bemutatja Zsomvárt.
+## 1. Rövid bemutatás
+- **Weboldal neve:** Zsomvár
+- **Cél:** Egy egyszerű, bemutatkozó weboldal Zsomvárról, amely információt ad a látogatóknak.  
+- **Funkciók:**
+  - Bemutatkozó oldal  
+  - Információk Zsomvárról
+  - jegyvásárlás minta
 
-Résztvevők:
+---
+## Résztvevők:
 
-Zsombor
+- Zsombor
 
-Sebi
+- Sebi
 
-Gréti
+- Gréti
 
-Barni
+ -Barni
 
-Kornél
+ -Kornél
 
-2. Feladatmegosztás
-Feladat	Felelős(ök)
-Wireframe készítés	Sebi, Kornél, Zsombor
-Szövegírás	Gréti, Barni
-Weboldal fejlesztés	Sebi, Kornél
-3. Projekt lépései
-Tervezés:
+Feladatmegosztás Feladat Felelős(ök) 
+Wireframe készítés Sebi, Kornél, Zsombor Szövegírás Gréti, Barni Weboldal fejlesztés Sebi, Kornél
+## 2. Fájlstruktúra
+- `index.html` – főoldal, tartalom és szerkezet  
 
-Wireframe elkészítése (oldalstruktúra, menük, elrendezés).
+- `style.css` – stíluslap, színek, tipográfia, elrendezés  
+- `src/` – képek, ikonok, médiafájlok  
 
-Tartalom:
-
-Szövegek megírása (bemutatkozás, történet, információk Zsomvárról).
-
-Fejlesztés:
-Weboldal kódolása és design kialakítása.
-Reszponzív megjelenés biztosítása.
-
-4. Technikai részletek
-Wireframe eszközök: pl. Figma,
-Weboldal technológiák: HTML, CSS
-Tartalomkezelés: Saját szövegek,ai képek.
+---
