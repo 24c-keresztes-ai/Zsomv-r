@@ -26,7 +26,7 @@ Wireframe készítés Sebi, Kornél, Zsombor Szövegírás Gréti, Barni Webolda
 ## 2. Fájlstruktúra
 - `index.html` – főoldal, kezdőlap - `elerhetoseg.html` – elérhetőségek, kapcsolati információk - `jegyvasarlas.html` – jegyvásárlási oldal - `jelen.html` – jelenlegi események vagy állapot bemutatása - `programok.html` – programlista, események - `tortenet.html` – Zsomvár története - `styles.css` – stíluslap, színek, tipográfia, elrendezés - `scripts.js` – JavaScript funkciók (ha van) - `assets/` – képek, ikonok, médiafájlok - `README.md` – projekt dokumentációja
 - `src/` – képek, ikonok, médiafájlok  
-## 6. Készítők és licenc
+## 3. Készítők és licenc
 Készítette:
 
 Zsombor
@@ -41,7 +41,7 @@ Kornél
 
 Licenc: MIT – szabadon felhasználható, módosítható
 
-## 7. Jövőbeli fejlesztések
+## 4. Jövőbeli fejlesztések
 Kapcsolati űrlap működésének beépítése
 
 Több tartalom és kép Zsomvárról
