@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zsomvár – Hivatalos Oldal</title>
+    <meta name="description"
+        content="Zsomvár hivatalos oldala: történet, jelen, programok, elérhetőség és jegyvásárlás." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="wrap">
+            <div class="brand">Zsomvár</div>
+            <div class="menu">
+                <a href="index.html">Főoldal</a>
+                <a href="tortenet.html">Történet</a>
+                <a href="jelen.html">Jelen</a>
+                <a href="programok.html">Programok</a>
+                <a href="elerhetoseg.html">Elérhetőség</a>
+                <a class="cta" href="jegyvasarlas.html">Jegyvásárlás</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+          <div>
+            <h1 class="hero-title">Zsomvár – Hivatalos Oldal</h1>
+            <p class="hero-sub">FŐOLDAL – Portfólió jellegű bemutatkozás</p>
+            <p>
+              Üdvözöljük Zsomvár honlapján! A Hegyes-dombság szívében fekvő Zsomvár évszázadok óta őrzi a térség
+              történelmét és legendáit. A festői panoráma, a gondosan megőrzött falak és a gazdag kulturális élet
+              egyaránt hozzájárul ahhoz, hogy Zsomvár napjainkra a régió egyik legkedveltebb történelmi-kulturális
+              központjává váljon.
+            </p>
+            <p>
+              Oldalunkon megismerheti a vár fiktív, de részletes történetét, a jelenlegi programkínálatot, valamint
+              minden gyakorlati tudnivalót – beleértve a jegyinformációkat és az elérhetőségeket. Fedezze fel
+              Zsomvár világát!
+            </p>
+          </div>
+      
+          <section class="hero-media video-block">
+            <video autoplay muted loop playsinline width="100%" poster="src/video/bemutato.mp4">
+              <source src="src/video/bemutato.mp4" type="video/mp4">
+              A böngésző nem támogatja a videólejátszást.
+            </video>
+          </section>
+        </div>
+      </header>
+      
+      <style>
+      .hero-media.video-block video {
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        max-height: 400px;
+        object-fit: cover;
+      }
+      </style>
+      
+
+    <section class="section">
+        <h2>Kiemelt tartalmak</h2>
+        <p class="muted">Három kártya a design mintájára – helyőrző képekkel és gombokkal.</p>
+        <div class="grid-3">
+            <article class="card">
+                <img class="card-media" src="src/img/kilatas.webp" alt="">
+                <div class="card-content">
+                    <h3>Várpanoráma</h3>
+                    <p>Ismerje meg a legszebb kilátópontokat és fotós tippeket a Zsomvár környékén.</p>
+                    <a class="btn" href="jelen.html">Felfedezés</a>
+                </div>
+            </article>
+            <article class="card">
+                <img class="card-media" src="src/img/kialitas.webp" alt="">
+                <div class="card-content">
+                    <h3>Interaktív kiállítás</h3>
+                    <p>“Zsomvár évszázadai” – digitális és élő bemutatók kicsiknek és nagyoknak.</p>
+                    <a class="btn" href="jelen.html">Részletek</a>
+                </div>
+            </article>
+            <article class="card">
+                    <img class="card-media" src="src/img/ticket.webp" alt="">
+                <div class="card-content">
+                    <h3>Jegyvásárlás</h3>
+                    <p>Gyors, statikus űrlap – kedvezménymezőkkel. Válassza ki az Önnek megfelelő jegyet!</p>
+                    <a class="btn" href="jegyvasarlas.html">Jegyet veszek</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <div class="brand">Zsomvár</div>
+                <p class="muted">Történelmi-kulturális központ a Hegyes-dombságban.</p>
+            </div>
+            <div class="footer-links sitemap">
+                <div>
+                    <h4>Oldaltérkép</h4>
+                    <a href="index.html">Főoldal</a><br>
+                    <a href="tortenet.html">Történet</a><br>
+                    <a href="jelen.html">Jelen</a>
+                </div>
+                <div>
+                    <h4>Programok és jegyek</h4>
+                    <a href="programok.html">Programok</a><br>
+                    <a href="jegyvasarlas.html">Jegyvásárlás</a>
+                </div>
+                <div>
+                    <h4>Kapcsolat</h4>
+                    <a href="elerhetoseg.html">Elérhetőség</a><br>
+                    <a href="elerhetoseg.html">Kapcsolatfelvétel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

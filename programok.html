@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programok – Zsomvár</title>
+    <meta name="description" content="Zsomvár éves programnaptára, főbb események 2025-ben hónapról hónapra." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="wrap">
+            <div class="brand">Zsomvár</div>
+            <div class="menu">
+                <a href="index.html">Főoldal</a>
+                <a href="tortenet.html">Történet</a>
+                <a href="jelen.html">Jelen</a>
+                <a href="programok.html">Programok</a>
+                <a href="elerhetoseg.html">Elérhetőség</a>
+                <a class="cta" href="jegyvasarlas.html">Jegyvásárlás</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div>
+                <h1 class="hero-title md-2">Programok – Éves programnaptár</h1>
+                <p class="hero-sub">Főbb események 2025-ben</p>
+            </div>
+            <section class="carousel-auto">
+                <div class="carousel-item active">
+                  <img src="src/img/carusel21.webp" alt="Zsomvár panoráma">
+                </div>
+                <div class="carousel-item">
+                  <img src="src/img/carusel22.png" alt="Interaktív kiállítás">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/carusel23.webp" alt="Interaktív kiállítás">
+                  </div>
+            </section>         
+              <script>
+              const autoItems = document.querySelectorAll('.carousel-auto .carousel-item');
+              let autoIndex = 0;
+              
+              function showAutoItem(index){
+                autoItems.forEach((item,i)=>item.classList.toggle('active', i===index));
+              }
+              
+              showAutoItem(autoIndex);
+              
+              setInterval(()=>{
+                autoIndex = (autoIndex + 1) % autoItems.length;
+                showAutoItem(autoIndex);
+              }, 5000);
+              </script>
+              
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="programs-list">
+            <h3>Január</h3>
+            <div class="prog-item">
+                <div class="prog-date">01.15.</div>
+                <div>Téli Várjárás – tematikus éjszakai túra</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">01.28.</div>
+                <div>Helytörténeti előadás: Zsomvár legendái</div>
+            </div>
+
+            <h3>Február</h3>
+            <div class="prog-item">
+                <div class="prog-date">02.10.</div>
+                <div>Kézműves hétvége: gyertyamártás és szappanfőzés</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">02.24.</div>
+                <div>Reneszánsz táncok bemutatója</div>
+            </div>
+
+            <h3>Március</h3>
+            <div class="prog-item">
+                <div class="prog-date">03.15.</div>
+                <div>Ünnepi megemlékezés és zászlófelvonás</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">03.22.</div>
+                <div>Középkori nap – solymászbemutató</div>
+            </div>
+
+            <h3>Április</h3>
+            <div class="prog-item">
+                <div class="prog-date">04.06.</div>
+                <div>Tavaszköszöntő családi nap</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">04.27.</div>
+                <div>Bor és Kultúra Fesztivál</div>
+            </div>
+
+            <h3>Május</h3>
+            <div class="prog-item">
+                <div class="prog-date">05.11.</div>
+                <div>Virágok Ünnepe – kertészeti vásár</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">05.24.</div>
+                <div>Zsomvár Futófesztivál</div>
+            </div>
+
+            <h3>Június</h3>
+            <div class="prog-item">
+                <div class="prog-date">06.01.</div>
+                <div>Gyermeknap a várban</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">06.21.</div>
+                <div>Szent Iván-éji tűzugrás</div>
+            </div>
+
+            <h3>Július</h3>
+            <div class="prog-item">
+                <div class="prog-date">07.05.</div>
+                <div>Nyári koncertsorozat I.</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">07.20.</div>
+                <div>Íjászviadal</div>
+            </div>
+
+            <h3>Augusztus</h3>
+            <div class="prog-item">
+                <div class="prog-date">08.10.</div>
+                <div>Lovagok Éjszakája – látványos esti show</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">08.20.</div>
+                <div>Államalapítás napi ünnepség</div>
+            </div>
+
+            <h3>Szeptember</h3>
+            <div class="prog-item">
+                <div class="prog-date">09.07.</div>
+                <div>Kézműves Sajtok Napja</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">09.28.</div>
+                <div>Zsomvári Színházi Esték</div>
+            </div>
+
+            <h3>Október</h3>
+            <div class="prog-item">
+                <div class="prog-date">10.12.</div>
+                <div>Parázsló Ősz – gasztronómiai hétvége</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">10.26.</div>
+                <div>Mesék Éjszakája</div>
+            </div>
+
+            <h3>November</h3>
+            <div class="prog-item">
+                <div class="prog-date">11.09.</div>
+                <div>Lámpás Felvonulás</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">11.23.</div>
+                <div>Hadtörténeti bemutató</div>
+            </div>
+
+            <h3>December</h3>
+            <div class="prog-item">
+                <div class="prog-date">12.06.</div>
+                <div>Mikulásváró programok</div>
+            </div>
+            <div class="prog-item">
+                <div class="prog-date">12.21.</div>
+                <div>Adventi koncert a kápolnában</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <div class="brand">Zsomvár</div>
+                <p class="muted">Történelmi-kulturális központ a Hegyes-dombságban.</p>
+            </div>
+            <div class="footer-links sitemap">
+                <div>
+                    <h4>Oldaltérkép</h4>
+                    <a href="index.html">Főoldal</a><br>
+                    <a href="tortenet.html">Történet</a><br>
+                    <a href="jelen.html">Jelen</a>
+                </div>
+                <div>
+                    <h4>Programok és jegyek</h4>
+                    <a href="programok.html">Programok</a><br>
+                    <a href="jegyvasarlas.html">Jegyvásárlás</a>
+                </div>
+                <div>
+                    <h4>Kapcsolat</h4>
+                    <a href="elerhetoseg.html">Elérhetőség</a><br>
+                    <a href="elerhetoseg.html">Kapcsolatfelvétel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

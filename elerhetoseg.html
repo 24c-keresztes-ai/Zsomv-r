@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elérhetőség – Zsomvár</title>
+    <meta name="description" content="Zsomvár elérhetőségei és kapcsolatfelvételi űrlap (statikus minta)." />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="wrap">
+            <div class="brand">Zsomvár</div>
+            <div class="menu">
+                <a href="index.html">Főoldal</a>
+                <a href="tortenet.html">Történet</a>
+                <a href="jelen.html">Jelen</a>
+                <a href="programok.html">Programok</a>
+                <a href="elerhetoseg.html">Elérhetőség</a>
+                <a class="cta" href="jegyvasarlas.html">Jegyvásárlás</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="wrap">
+            <div>
+                <h1 class="hero-title">Elérhetőség, kapcsolat</h1>
+                <p class="hero-sub">Kapcsolatfelvételi űrlap és általános elérhetőségek.</p>
+            </div>
+           <img class="hero-media"  src="src/img/var.webp" alt="Vár">
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="form-row">
+            <div>
+                <h3>Kapcsolatfelvételi űrlap (statikus minta)</h3>
+                <form aria-label="Kapcsolatfelvételi űrlap">
+                    <div>
+                        <label for="nev">Név</label>
+                        <input type="text" id="nev" name="nev" placeholder="Vezetéknév Keresztnév" />
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="email">E-mail cím</label>
+                            <input type="email" id="email" name="email" placeholder="nev@pelda.hu" />
+                        </div>
+                        <div>
+                            <label for="tel">Telefonszám</label>
+                            <input type="tel" id="tel" name="tel" placeholder="+36 30 555 1234" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="uzenet">Üzenet</label>
+                        <textarea id="uzenet" name="uzenet"
+                            placeholder="Írja meg röviden, miben segíthetünk."></textarea>
+                    </div>
+                    <button class="btn" type="button">Küldés</button>
+                    <p class="note">Az űrlap statikus mintaként szolgál; beküldés nem kerül mentésre.</p>
+                </form>
+            </div>
+
+            <div>
+                <h3>Elérhetőségek</h3>
+                <div class="card" style="padding:14px">
+                    <p><strong>Cím:</strong>nigec tér</p>
+                    <p><strong>Telefon:</strong> +36 30 555 1234</p>
+                    <p><strong>E-mail:</strong> info@zsomvar.hu</p>
+                    <p><strong>Nyitvatartás:</strong><br> H–P: 9:00–17:00<br> Szo–V: 10:00–18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <div class="brand">Zsomvár</div>
+                <p class="muted">Történelmi-kulturális központ a Hegyes-dombságban.</p>
+            </div>
+            <div class="footer-links sitemap">
+                <div>
+                    <h4>Oldaltérkép</h4>
+                    <a href="index.html">Főoldal</a><br>
+                    <a href="tortenet.html">Történet</a><br>
+                    <a href="jelen.html">Jelen</a>
+                </div>
+                <div>
+                    <h4>Programok és jegyek</h4>
+                    <a href="programok.html">Programok</a><br>
+                    <a href="jegyvasarlas.html">Jegyvásárlás</a>
+                </div>
+                <div>
+                    <h4>Kapcsolat</h4>
+                    <a href="elerhetoseg.html">Elérhetőség</a><br>
+                    <a href="elerhetoseg.html">Kapcsolatfelvétel</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
